@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'home_page.dart';
-import 'main.dart';
 
 void main() {
   runApp(
     MaterialApp(
-      // home: Page1(),
-      initialRoute: "/",
+      initialRoute: "/weather",
+      debugShowCheckedModeBanner: false,
+      // initialRoute: "/",
       routes: {
         '/': (context) => const Page1(),
         '/page2': (context) => const Page2(),
@@ -30,7 +30,7 @@ class Page1 extends StatelessWidget {
           onPressed: () {
             Navigator.pushNamed(context, '/page2');
           },
-          child: const Text('Go!'),
+          child: const Text('Go page 2'),
         ),
       ),
     );
@@ -48,7 +48,7 @@ class Page2 extends StatelessWidget {
           onPressed: () {
             Navigator.pushNamed(context, '/page3');
           },
-          child: const Text('page2'),
+          child: const Text('Go page 3'),
         ),
       ),
     );
@@ -66,9 +66,9 @@ class Page3 extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             Navigator.pushNamed(context, '/page4',
-                arguments: {"str": "test", "str2": "asdfasdf"});
+                arguments: {"str": "test", "str2": "Back to page 2"});
           },
-          child: const Text('page3'),
+          child: const Text('Go page 4'),
         ),
       ),
     );
