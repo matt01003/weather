@@ -1,16 +1,11 @@
-# weather
+# Weather
 
-A new Flutter project.
+This project is a testing application for querying HK weather.
 
-## Getting Started
+- [Demo](https://drive.google.com/file/d/1RW8fh-Cckb5nxfGG4YoIdEM_SK3_M8FF/view?usp=sharing)
 
-This project is a starting point for a Flutter application.
+### Resources
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Weather icons](https://github.com/basmilius/weather-icons)
+- [HKO API](https://www.hko.gov.hk/en/weatherAPI/doc/files/HKO_Open_Data_API_Documentation.pdf)
+- [OpenWeather API](https://openweathermap.org/)
